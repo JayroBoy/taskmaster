@@ -1,0 +1,33 @@
+{
+  "name": "taskmaster",
+  "version": "1.0.0",
+  "description": "A simple task management application built with Next.js and tRPC.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "nextjs",
+    "trpc",
+    "task management"
+  ],
+  "author": "Jayro Boy",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "@trpc/client": "^10.0.0",
+    "@trpc/server": "^10.0.0",
+    "next": "^15.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zod": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.4",
+    "eslint": "^7.0.0",
+    "eslint-config-next": "^12.0.0",
+    "typescript": "^4.5.0"
+  }
+}
